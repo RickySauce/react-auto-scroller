@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import AutoScrollerChild from './autoScrollerChild'
-import ScrollerArrows from './scrollerArrows'
+import AutoScrollerChild from './AutoScrollerChild.js'
+import ScrollerArrows from './ScrollerArrows.js'
 import '../css/auto-scroller.css'
 
 const initialState =  {

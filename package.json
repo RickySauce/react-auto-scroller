@@ -2,12 +2,10 @@
   "name": "react-auto-scroller",
   "version": "1.0.0",
   "description": "horizontal auto scroller for React.js",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
-    "build": "babel lib -d build",
-    "prepublish": "npm run build",
-    "build:demo": "babel lib -d build --ignore '**/*.test.js' && sudo npm link",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "dev": "webpack --progress --colors --watch && sudo npm link"
   },
   "repository": {
     "type": "git",
@@ -25,15 +23,26 @@
   },
   "homepage": "https://github.com/RickySauce/react-auto-scroller#readme",
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
     "react": "^16.7.0",
-    "react-icons": "^3.3.0"
+    "react-icons": "^3.3.0",
+    "save-dev": "^2.0.0",
+    "webpack": "^4.29.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-stage-2": "^7.0.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-preset-react": "^6.24.1",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-css-modules-transform": "^1.6.2",
+    "css-loader": "^2.1.0",
     "nyc": "^13.1.0",
     "standard": "^12.0.1",
-    "tap": "^12.1.2"
+    "style-loader": "^0.23.1",
+    "tap": "^12.1.2",
+    "webpack-cli": "^3.2.1"
   }
 }

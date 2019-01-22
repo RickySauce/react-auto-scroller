@@ -42,7 +42,7 @@ class ScrollerArrows extends Component {
 
   render(){
       return (
-          <>
+          <React.Fragment>
             <TiChevronLeft
             id='arrow-left' className={this.concatClassNames()}
             onPointerDown={this.handlePointer}
@@ -50,7 +50,7 @@ class ScrollerArrows extends Component {
             <TiChevronRight
             id='arrow-right' className={this.concatClassNames()}
             />
-          </>
+          </React.Fragment>
       )
     }
 };
