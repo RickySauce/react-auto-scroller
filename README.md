@@ -17,7 +17,7 @@ npm install --save react-auto-scroller
 ## Dependancies
 - react-icons
 
-##Soon to Come
+## Soon to Come
 - scrolling optimization
 - additional props, i.e: div and item size, colors for arrows, vertical or horizontal
 - vertical mode 
