@@ -9,18 +9,17 @@
 npm install --save react-auto-scroller
 
 ## Usage
+```js
+ import AutoScroller from 'react-auto-scroller'
 
-- import AutoScroller from 'react-auto-scroller'
-- Wrap list in <AutoScroller> </AutoScroller>
+  <AutoScroller speedMod={}> 'your list'</AutoScroller>
+```
 - Currently only takes one prop - speedMod=. Default is set to 0.10 I would suggest working with increments of .01
-
-## Dependancies
-- react-icons
 
 ## Soon to Come
 - scrolling optimization
 - additional props, i.e: div and item size, colors for arrows, vertical or horizontal
-- vertical mode 
+- vertical mode
 
 ## License
 
