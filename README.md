@@ -1,6 +1,6 @@
 # React Auto Scroller
 
-- horizontal auto scroller
+- Horizontal auto scroller
 - Detects whether or not the list is long enough to scroll
 - Mobile friendly.
 
