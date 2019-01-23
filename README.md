@@ -11,7 +11,7 @@ npm install --save react-auto-scroller
 ## Usage
 ```js
  import AutoScroller from 'react-auto-scroller'
-
+ 
   <AutoScroller speedMod={}> 'your list'</AutoScroller>
 ```
 - Currently only takes one prop - speedMod=. Default is set to 0.10 I would suggest working with increments of .01
