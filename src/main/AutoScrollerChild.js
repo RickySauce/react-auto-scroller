@@ -137,5 +137,4 @@ AutoScrollerChild.defaultProps = {
   speedMod: 0.1
 }
 
-console.log(AutoScrollerChild)
 export default AutoScrollerChild

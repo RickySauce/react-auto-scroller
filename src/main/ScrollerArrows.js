@@ -36,16 +36,11 @@ class ScrollerArrows extends Component {
     return this.props.className + ` ` + this.state.direction + ` ` + this.state.visibility
   }
 
-  handlePointer = (event) => {
-    console.log(event.currentTarget.parentElement.children[0])
-  }
-
   render(){
       return (
           <React.Fragment>
             <TiChevronLeft
             id='arrow-left' className={this.concatClassNames()}
-            onPointerDown={this.handlePointer}
             />
             <TiChevronRight
             id='arrow-right' className={this.concatClassNames()}
@@ -58,7 +53,5 @@ class ScrollerArrows extends Component {
 ScrollerArrows.defaultProps = {
   className: 'scroller-arrows'
 }
-
-console.log(ScrollerArrows)
 
 export default ScrollerArrows
