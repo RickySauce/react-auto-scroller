@@ -1,3 +1,6 @@
-import AutoScroller from './main/AutoScroller.js';
+import React, { Component } from 'react';
+import AutoScroller from './main/AutoScroller';
 
-export default AutoScroller
+module.exports = {
+  AutoScroller,
+}

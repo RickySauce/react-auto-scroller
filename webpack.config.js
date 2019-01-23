@@ -2,11 +2,12 @@ var webpack = require('webpack');
 
 
 var config = {
-  entry: __dirname + '/src/index.js',
+  entry: __dirname + '/src/main/AutoScroller.js',
   devtool: 'source-map',
   output: {
     path: __dirname + '/dist',
     filename: "bundle.js",
+     libraryTarget: 'commonjs2',
   },
   module: {
     rules: [

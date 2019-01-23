@@ -59,4 +59,6 @@ ScrollerArrows.defaultProps = {
   className: 'scroller-arrows'
 }
 
+console.log(ScrollerArrows)
+
 export default ScrollerArrows
